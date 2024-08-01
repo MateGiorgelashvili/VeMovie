@@ -1,0 +1,95 @@
+.carouselbox {
+  display: flex;
+  gap: 20px;
+}
+
+.poster {
+  width: 220px;
+  height: 320px;
+  border-radius: 1px;
+}
+
+.carousel h1 {
+  margin-bottom: 15px;
+}
+
+.mov1,
+.mov2,
+.mov3,
+.mov4,
+.mov5,
+.mov6 {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  font-family: sans-serif;
+  font-weight: 400;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.mov1:hover,
+.mov2:hover,
+.mov3:hover,
+.mov4:hover,
+.mov5:hover,
+.mov6:hover{
+  filter: brightness(80%);
+  scale: 98%;
+}
+
+p{
+  margin-top: 5px;
+}
+
+.movie {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 220px;
+  height: 320px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.movie-1 {
+  background-image: url('/src/assets/movieposters/poster1.jpg');
+  animation: hoverAnimation 12s infinite;
+}
+
+.movie-2 {
+  background-image: url('/src/assets/movieposters/poster2.jpg');
+  animation: hoverAnimation 12s infinite 2s;
+}
+
+.movie-3 {
+  background-image: url('/src/assets/movieposters/poster3.jpg');
+  animation: hoverAnimation 12s infinite 5s;
+}
+
+.movie-4 {
+  background-image: url('/src/assets/movieposters/poster4.jpg');
+  animation: hoverAnimation 12s infinite 8s;
+}
+
+.movie-5 {
+  background-image: url('/src/assets/movieposters/poster5.jpg');
+  animation: hoverAnimation 12s infinite 11s;
+}
+
+.movie-6 {
+  background-image: url('/src/assets/movieposters/poster6.jpg');
+  animation: hoverAnimation 12s infinite 15s;
+}
+
+@keyframes hoverAnimation {
+  0%, 16.66%, 100% {
+    transform: translateY(0);
+    box-shadow: none;
+  }
+  8%, 25% {
+    transform: translateY(-9px);
+    box-shadow: 0px 0px 90px 1px rgb(0, 98, 255);
+    scale: 98%;
+  }
+}

@@ -1,0 +1,69 @@
+.main-movie-sect{
+  display: flex;
+  flex-direction: column;
+  height: 2000px;
+  margin-top: 30px;
+}
+
+.movie-first-row,.movie-second-row,.movie-third-row,.movie-fourth-row,.movie-fifth-row{
+  display: flex;
+  width: 100%;
+  height: 800px;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.movie-row-1{
+  background-image: url(.//src/assets/movieposters/poster6.jpg);
+  width: 200px;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.movie-row-2{
+  background-image: url(.//src/assets/movieposters/poster5.jpg);
+  width: 200px;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.movie-row-3{
+  background-image: url(.//src/assets/movieposters/poster4.jpg);
+  width: 200px;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.movie-row-4{
+  background-image: url(.//src/assets/movieposters/poster3.jpg);
+  width: 200px;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.movie-row-5{
+  background-image: url(.//src/assets/movieposters/poster2.jpg);
+  width: 200px;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.movie-row-6{
+  background-image: url(.//src/assets/movieposters/poster1.jpg);
+  width: 200px;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

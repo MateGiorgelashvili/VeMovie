@@ -1,0 +1,28 @@
+#cover::before{
+  content: "";
+  background-image: url(/src/assets/cover.jpg);
+  width: 108%;
+  height: 520px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  left: -150px;
+  filter: brightness(50%);
+  top: 85px;
+  z-index: -1;
+}
+
+#cover{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.carousel-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
